@@ -1,17 +1,17 @@
 
 import Image   from "next/image";
 import React from 'react'
-import About from '@/components/About'
-import Contact from '@/components/Contact'
-import Navbar from '@/components/Navbar'
-import Projects from '@/components/Projects'
+import About from './component/about/page'
+import Contact from './component/contact/page'
+import Navbar from './component/navbar/page'
+import Projects from './component/projects/page'
 
   import { Button } from '@/components/ui/button'
 
   
-import GeneratePDF from '@/components/GeneratePDF';
-import CVUploader from '@/components/CVUploader';
-import SaveButton from '@/components/SaveButton';
+import GeneratePDF from '@/app/GeneratePDF';
+import CVUploader from '@/app/CVUploader';
+import SaveButton from '@/app/SaveButton';
 
 const Home = () => {
   return (<>
